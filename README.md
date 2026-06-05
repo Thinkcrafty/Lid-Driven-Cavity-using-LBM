@@ -8,6 +8,5 @@ The simulation utilizes the **D2Q9** lattice model (2 dimensions, 9 discrete vel
 ## Features
 * **D2Q9 Lattice:** Standard 9-directional velocity streaming.
 * **BGK Collision Operator:** Approximates the collision step for fluid relaxation toward equilibrium.
-* **Boundary Conditions:** * Standard bounce-back for the stationary left, right, and bottom walls.
-  * Prescribed equilibrium velocity boundary for the moving top lid.
+* **Boundary Conditions:** Standard bounce-back for the stationary left, right, and bottom walls and prescribed equilibrium velocity boundary for the moving top lid.
 * **Visualization:** Generates a contour plot of the final velocity magnitude field using Matplotlib.
